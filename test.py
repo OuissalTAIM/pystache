@@ -12,5 +12,9 @@ def runner(output='python_tests_xml'):
 def find_tests():
     return unittest.TestLoader().discover('pystache')
 
+thirsty=input("are you thirsty?")
+if thirsty=="yes":
+    print("drink watter")
+
 if __name__ == '__main__':
     runner().run(find_tests())

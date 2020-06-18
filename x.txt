@@ -1,0 +1,22 @@
+#checkout out source code 
+git clone https://github.com/jenkinsci/gitlab-branch-source-plugin.git
+cd gitlab-branch-source-plugin
+#install the plugin
+mvn hpi:run # runs a Jenkins instance at localhost:8080
+    or
+mvn hpi:run -Djetty.port={port} # to run on your desired port number
+mvn clean install -DskipTests # to skip tests
+
+
+Manage plugins 
+Upload plugin
+
+
+C:\Users\dell\Downloads\gitlab-branch-source.hpi
+
+Personal accel token gitlab API : Z59C_Fc_gahXyERQbhjn 
+
+
+Periodic : Build periodically 
+
+Poll SCM
